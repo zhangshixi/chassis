@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chassis-archetypes" />
+        <module name="chassis-component-api" />
+        <module name="chassis-component-eventbus" />
+        <module name="chassis-component-exception" />
+        <module name="chassis-component-logging" />
+        <module name="chassis-component-statemachine" />
+        <module name="chassis-component-validation" />
+        <module name="chassis-samples" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="chassis-archetypes" target="1.7" />
+      <module name="chassis-component-api" target="1.5" />
+      <module name="chassis-component-eventbus" target="1.5" />
+      <module name="chassis-component-exception" target="1.7" />
+      <module name="chassis-component-logging" target="1.7" />
+      <module name="chassis-component-statemachine" target="1.5" />
+      <module name="chassis-component-validation" target="1.7" />
+      <module name="chassis-components" target="1.5" />
+      <module name="chassis-samples" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
