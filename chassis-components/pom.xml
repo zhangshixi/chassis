@@ -6,12 +6,13 @@
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <modules>
-    <module>chassis-component-exception</module>
-    <module>chassis-component-eventbus</module>
-    <module>chassis-component-statemachine</module>
-    <module>chassis-component-logging</module>
-    <module>chassis-component-validation</module>
     <module>chassis-component-api</module>
+    <module>chassis-component-eventbus</module>
+    <module>chassis-component-exception</module>
+    <module>chassis-component-logging</module>
+    <module>chassis-component-statemachine</module>
+    <module>chassis-component-validation</module>
+    <module>chassis-component-workstage</module>
   </modules>
   <name>Maven Quick Start Archetype</name>
   <url>http://maven.apache.org</url>
